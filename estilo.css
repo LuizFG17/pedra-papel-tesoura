@@ -1,0 +1,65 @@
+body {
+  background-color: rgba(101, 211, 125, 1);
+}
+section {
+  background-color: grey;
+  width: 770px;
+  border-radius: 15px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(77, 70, 70, 0.23);
+  padding: 15px;
+  font: 17pt Arial;
+  text-align: center;
+}
+
+div.card {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(77, 70, 70, 0.23);
+}
+
+div#res {
+    margin: 20px auto;
+    background-color: white;
+    width: 570px;
+    height: 75px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(77, 70, 70, 0.23);
+    line-height: center;
+    padding: 5px;
+}
+
+p {
+  font: bold 17pt Arial;
+}
+
+p.s {
+  font: bold 26pt Arial;
+}
+
+h1 {
+  text-align: center;
+  font: bold 40pt Arial;
+  color: white;
+}
+footer {
+  text-align: center;
+  font: bold 17pt Arial;
+  color: white;
+  margin-top: 25px;
+}
+
+.card {
+  transition: background-color 0.2s;
+  font: bold 17pt Arial;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
